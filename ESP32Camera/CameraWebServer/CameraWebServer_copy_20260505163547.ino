@@ -5,8 +5,8 @@
 #include "camera_pins.h"
 
 // 🔧 Replace with your WiFi
-const char* ssid = "Iphone";
-const char* password = "yomum321";
+const char* ssid = "**********";
+const char* password = "*********";
 
 void startCameraServer(); // forward declaration
 
