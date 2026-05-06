@@ -4,6 +4,7 @@ A compact, portable DIY digital camera built using the **Seeed Studio XIAO ESP32
 
 This project is a hands on project that combines both hardware and software, that will essentially give me a greater sense of the integration between software and hardware within a project. It should capture images, saves images to microSD card, and displays them on a small LCD screen with button-based navigation. The decive will also feature a **custom-designed 3D printed enclosure**, that I am creating though AutoCAD.
 
+ ( This is just for me to keep track of milestones in project )
 ## 🚀 Features
 - Captures photos using onboard OV5640 Camera
 - Saves images to microSD card
