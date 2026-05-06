@@ -32,14 +32,33 @@ This project is a hands on project that combines both hardware and software, tha
   - USB-C access for charging
   - Internal mounts for components
  
-## Wiring Overview -> Coming Soon
+## Wiring Overview 
+ Waveshare 1.69" LCD (ST7789V2) + XIAO ESP32S3
+
+| LCD Pin | XIAO ESP32S3 |
+|--------|--------------|
+| VCC    | 3V3 |
+| GND    | GND (direct, not via breadboard) |
+| DIN (MOSI) | D10 |
+| CLK (SCK)  | D8 |
+| CS     | D7 |
+| DC     | D6 |
+| RST    | D5 |
+| BL     | 3V3 |
+
+### ⚠️ Notes
+
+- **Breadboard only used for 3.3V split (VCC + BL)**
+- SPI pins should be **direct wired** (no breadboard)
+- Keep wires **short**
+
 ## Software Setup -> Coming soon (debating on using arduino IDE versus PlatformIO
 ## Development Progress
-* [ ] ESP32 setup
-* [ ] Display working
+* [x] ESP32 setup
+* [x] Display working
 * [ ] Button input
 * [ ] SD card write
-* [ ] Camera capture
+* [x] Camera capture
 * [ ] Image display
 * [ ] Gallery navigation
 * [ ] Battery integration
